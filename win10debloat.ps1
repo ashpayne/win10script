@@ -148,8 +148,8 @@ $tweaks = @(
 	# "DisableThumbsDB",              # "EnableThumbsDB",
 
 	### Application Tweaks ###
-	#"DisableOneDrive",              # "EnableOneDrive",
-	#"UninstallOneDrive",            # "InstallOneDrive",
+	#"EnableOneDrive",              # "EnableOneDrive",
+	#"InstallOneDrive",            # "InstallOneDrive",
 	"UninstallMsftBloat",           # "InstallMsftBloat",
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
 	# "UninstallWindowsStore",      # "InstallWindowsStore",
