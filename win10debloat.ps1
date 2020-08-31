@@ -31,7 +31,17 @@ $tweaks = @(
 
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"InstallAdobe"
+	"InstallVLC",
+	"InstallPostman",
+	"InstallPowerToys",
+	"InstallStreamDeck",
+	"InstallTeraCopy",
+	"InstallMirc",
+	"InstallSteam",
+	"InstallTorrent",
+	"InstallPutty",
+	"InstallVSCode"
+	
 
 	### Windows Apps
 	"DebloatAll",
@@ -197,6 +207,69 @@ Function InstallTitusProgs {
 	Start-BitsTransfer -Source "https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe" -Destination OOSU10.exe
 	./OOSU10.exe ooshutup10.cfg /quiet
 }
+
+Function InstallVLC {
+	Write-Output "Installing VLC"
+	choco install VLC -y
+}
+
+Function InstallPostman {
+	Write-Output "Installing Postman"
+	choco install postman -y
+}
+
+Function InstallPowerToys {
+	Write-Output "Installing PowerToys"
+	choco install powertoys -y
+}
+
+Function InstallStreamDeck {
+	Write-Output "Installing StreamDeck"
+	choco install streamdeck -y
+}
+
+
+
+Function InstallTeraCopy {
+	Write-Output "Installing TeraCopy"
+	choco install teracopy -y
+}
+
+
+Function InstallMirc {
+	Write-Output "Installing mIRC"
+	choco install mirc -y
+}
+
+
+Function InstallSteam {
+	Write-Output "Installing Steam"
+	choco steam VLC -y
+}
+
+Function InstallTorrent {
+	Write-Output "Installing Torrent"
+	choco steam qbittorrent -y
+}
+
+
+Function InstallPutty {
+	Write-Output "Installing Putty"
+	choco install putty.install -y
+}
+
+Function InstallAzureStorage {
+	Write-Output "Installing Azure Storage Explorer"
+	choco install microsoftazurestorageexplorer -y
+}
+
+Function InstallVSCode {
+	Write-Output "Installing VS Code"
+	choco install vscode -y
+}
+
+
+
 
 Function InstallAdobe {
 	Write-Output "Installing Adobe Acrobat Reader"
