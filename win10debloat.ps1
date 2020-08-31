@@ -40,7 +40,7 @@ $tweaks = @(
 	"InstallSteam",
 	"InstallTorrent",
 	"InstallPutty",
-	"InstallVSCode"
+	"InstallVSCode",
 	
 
 	### Windows Apps
