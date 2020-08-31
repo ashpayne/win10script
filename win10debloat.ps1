@@ -216,9 +216,7 @@ Function InstallVLC {
 
 Function InstallWSL2 {
 	Write-Output "Installing VLC"
-	dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-	dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-	#wsl --set-default-version 2
+	Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 	
 }
 Function InstallPostman {
