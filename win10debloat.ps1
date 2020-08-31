@@ -41,6 +41,7 @@ $tweaks = @(
 	"InstallTorrent",
 	"InstallPutty",
 	"InstallVSCode",
+	"InstallOpenSSHClient",
 	
 
 	### Windows Apps
@@ -213,7 +214,10 @@ Function InstallVLC {
 	Write-Output "Installing VLC"
 	choco install VLC -y
 }
-
+Function InstallOpenSSHClient {
+	Write-Output "Installing OpenSSH Client"
+	Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
+}
 Function InstallWSL2 {
 	Write-Output "Installing VLC"
 	Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
