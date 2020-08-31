@@ -169,7 +169,7 @@ $tweaks = @(
 	"UninstallInternetExplorer",  # "InstallInternetExplorer",
 	"UninstallWorkFolders",       # "InstallWorkFolders",
 	"InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
-	# "InstallHyperV",              # "UninstallHyperV",
+	"InstallHyperV",              # "UninstallHyperV",
 	"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
 	"InstallPDFPrinter",		# "UninstallPDFPrinter",
@@ -218,7 +218,7 @@ Function InstallWSL2 {
 	Write-Output "Installing VLC"
 	dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 	dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-	wsl --set-default-version 2
+	#wsl --set-default-version 2
 	
 }
 Function InstallPostman {
