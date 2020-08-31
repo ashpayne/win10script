@@ -189,6 +189,7 @@ $tweaks = @(
 	#"UnpinTaskbarIcons",
 
 	### Auxiliary Functions ###
+	"InstallWSL2",
 	"WaitForKey"
 	"Restart"
 )
@@ -213,6 +214,13 @@ Function InstallVLC {
 	choco install VLC -y
 }
 
+Function InstallWSL2 {
+	Write-Output "Installing VLC"
+	dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+	dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+	wsl --set-default-version 2
+	
+}
 Function InstallPostman {
 	Write-Output "Installing Postman"
 	choco install postman -y
