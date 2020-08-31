@@ -31,16 +31,16 @@ $tweaks = @(
 
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	#"InstallVLC",
-	#"InstallPostman",
-	#"InstallPowerToys",
-	#"InstallStreamDeck",
-	#"InstallTeraCopy",
-	#"InstallMirc",
-	#"InstallSteam",
-	#"InstallTorrent",
-	#"InstallPutty",
-	#"InstallVSCode",
+	"InstallVLC",
+	"InstallPostman",
+	"InstallPowerToys",
+	"InstallStreamDeck",
+	"InstallTeraCopy",
+	"InstallMirc",
+	"InstallSteam",
+	"InstallTorrent",
+	"InstallPutty",
+	"InstallVSCode",
 	"InstallOpenSSHClient",
 	
 
