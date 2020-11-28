@@ -37,10 +37,8 @@ $tweaks = @(
 	"InstallStreamDeck",
 	"InstallTeraCopy",
 	"InstallMirc",
-	"InstallSteam",
 	"InstallTorrent",
 	"InstallPutty",
-	"InstallVSCode",
 	"InstallOpenSSHClient",
 	
 
