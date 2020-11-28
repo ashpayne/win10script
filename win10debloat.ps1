@@ -34,7 +34,6 @@ $tweaks = @(
 	"InstallVLC",
 	"InstallPostman",
 	"InstallPowerToys",
-	"InstallStreamDeck",
 	"InstallTeraCopy",
 	"InstallMirc",
 	"InstallTorrent",
