@@ -129,7 +129,7 @@ $tweaks = @(
 	# "AddENKeyboard",              # "RemoveENKeyboard",
 	"EnableNumlock",             	# "DisableNumlock",
 	"EnableDarkMode",				# "DisableDarkMode",
-	"Stop-EdgePDF",
+	#"Stop-EdgePDF",
 
 	### Explorer UI Tweaks ###
 	"ShowKnownExtensions",          # "HideKnownExtensions",
@@ -157,8 +157,8 @@ $tweaks = @(
 	# "DisableThumbsDB",              # "EnableThumbsDB",
 
 	### Application Tweaks ###
-	"EnableOneDrive",              # "EnableOneDrive",
-	"InstallOneDrive",            # "InstallOneDrive",
+	#"EnableOneDrive",              # "EnableOneDrive",
+	#"InstallOneDrive",            # "InstallOneDrive",
 	"UninstallMsftBloat",           # "InstallMsftBloat",
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
 	# "UninstallWindowsStore",      # "InstallWindowsStore",
