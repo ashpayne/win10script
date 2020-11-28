@@ -256,7 +256,7 @@ Function InstallSteam {
 
 Function InstallTorrent {
 	Write-Output "Installing Torrent"
-	choco steam qbittorrent -y
+	choco install qbittorrent -y
 }
 
 
