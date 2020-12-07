@@ -57,7 +57,7 @@ $tweaks = @(
 	"DisableFeedback",              # "EnableFeedback",
 	"DisableTailoredExperiences",   # "EnableTailoredExperiences",
 	"DisableAdvertisingID",         # "EnableAdvertisingID",
-	"DisableCortana",               # "EnableCortana",
+	#"DisableCortana",               # "EnableCortana",
 	"DisableErrorReporting",        # "EnableErrorReporting",
 	"SetP2PUpdateLocal",          # "SetP2PUpdateInternet",
 	"DisableDiagTrack",             # "EnableDiagTrack",
